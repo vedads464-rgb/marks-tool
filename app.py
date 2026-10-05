@@ -15,5 +15,4 @@ def main():
     print("Lowest :", lowest(MARKS))
 
 if __name__ == "__main__":
-
-    main()
+     main()

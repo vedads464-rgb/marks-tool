@@ -8,3 +8,5 @@ def highest(marks):
 
 def lowest(marks):
     return min(marks)
+
+#line 1: """Statistics helpers."""
