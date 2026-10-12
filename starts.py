@@ -9,6 +9,5 @@ def highest(marks):
 def lowest(marks):
 	return min(marks)
 
-def pass_count (marks, pass_mark):
-
-# line 1: """Statistics helpers."""
+def pass_count(marks, pass_mark):
+    return len([mark for mark in marks if mark >= pass_mark])
