@@ -8,7 +8,7 @@ MARKS = [72, 65, 88, 91, 54]
 def main():
 	settings = load_env()
 	print(settings["APP_NAME"])
-        pass_mark = int(settings["PASS_MARK"])
+    pass_mark = int(settings["PASS_MARK"])
 	print("count  :", len(MARKS))
 	print("Average:", average(MARKS))
 	print("Highest:", highest(MARKS))
