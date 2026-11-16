@@ -10,3 +10,5 @@ def load_env(path=".env"):
 			key, _, value = line.partition("=")
 			settings[key.strip()] = value.strip()
 	return settings
+HEAD
+feature-branch
